@@ -36,7 +36,10 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Text('Text Widget'),
         backgroundColor: Theme.of(context).colorScheme.primary,
       ),
-      body: Text('Text Widget', style: TextStyle(fontSize: 18)),
+      body: Text(
+        'Text Widget',
+        style: TextStyle(fontSize: 18, color: Colors.black),
+      ),
     );
   }
 }
