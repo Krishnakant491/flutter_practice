@@ -41,7 +41,7 @@ class _HomeScreenState extends State<HomeScreen> {
         onPressed: () {
           print("Button Clicked");
         },
-        onLongPress: () => print("Button on long pressed"),
+        onLongPress: () => print("Button on long pressed!!"),
       ),
     );
   }
