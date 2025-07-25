@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: ElevatedButton(
           child: Text('Elevated Button', style: TextStyle(fontSize: 18)),
           onPressed: () => print("elevated button pressed"),
-          onLongPress: () => print("long pressed"),
+          onLongPress: () => print(" elevated long pressed"),
         ),
       ),
     );
