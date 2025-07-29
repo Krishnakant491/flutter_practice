@@ -45,7 +45,7 @@ class HomeScreen extends StatelessWidget {
                 topLeft: Radius.elliptical(90, 40),
               ),
               border: Border.symmetric(
-                vertical: BorderSide(color: Colors.lightGreenAccent, width: 5),
+                vertical: BorderSide(color: Colors.brown, width: 5),
               ),
               boxShadow: [
                 BoxShadow(color: Colors.black, blurRadius: 15, spreadRadius: 7),
